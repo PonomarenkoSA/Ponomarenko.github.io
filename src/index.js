@@ -91,16 +91,16 @@ function toAddCard(event) {
 // Слушатели
 
 //Вешаем слушатель на кнопку открытия формы "Редактировать профиль"
-userButtonEdit.addEventListener('click', toOpenFormEdit)
+userButtonEdit.addEventListener('click', toOpenFormEdit);
 
 //Вешаем слушатель submit формы "Редактировать профиль"
-formEdit.addEventListener('submit', toUpdateUserInf)
+formEdit.addEventListener('submit', toUpdateUserInf);
 
 // Вешаем слушатель submit формы "Новые места"
-formPlace.addEventListener('submit', toAddCard)
+formPlace.addEventListener('submit', toAddCard);
 
 // Слушатели открытия формы "Новые места"
-userButtonAdd.addEventListener('click', toOpenFormNewPlaces)
+userButtonAdd.addEventListener('click', toOpenFormNewPlaces);
 
 
 }) ();
