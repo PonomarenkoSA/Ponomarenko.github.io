@@ -2,6 +2,8 @@
 
 (function() {
 
+import "./style.css";
+
 const initialInformation = () => {
   return api.getInitialUserInformation()
 }
