@@ -8,6 +8,10 @@
   transition: transform .3s linear;
 }
 
+.place-card__like-icon:active, .place-card__like-icon:focus {
+  outline: none;
+}
+
 .place-card__like-icon_liked {
   background-image: url(../../../images/like-active.svg);
 }
