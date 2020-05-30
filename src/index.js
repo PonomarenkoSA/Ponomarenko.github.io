@@ -1,8 +1,8 @@
 'use strict';
 
-(function() {
-
 import "./style.css";
+
+(function() {
 
 const initialInformation = () => {
   return api.getInitialUserInformation()
