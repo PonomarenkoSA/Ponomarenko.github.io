@@ -1,5 +1,7 @@
 'use strict';
 
+export {avatar, userInfoJob, userInfoName, userButtonEdit, userButtonAdd, placesList, popupAddElement, popupEditElement, popupTemplate, formPlace, formEdit, inputName, inputJob};
+
 const avatar = document.querySelector('.user-info__avatar');
 const userInfoJob = document.querySelector('.user-info__job');
 const userInfoName = document.querySelector('.user-info__name');  

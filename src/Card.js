@@ -2,7 +2,7 @@
 
 // В качестве параметров передается название, ссылка, элемент для вставки Popup и экземпляр метода.
 
-class Card {
+export default class Card {
     constructor(title, link, popupTemplate, openImage) {
         this.title = title;
         this.link = link;

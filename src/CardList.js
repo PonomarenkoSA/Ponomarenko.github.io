@@ -2,7 +2,7 @@
 
 // В качестве параметров передается контейнер для вставки готовых карточек, а также массив с готовыми карточками - элементами первоначальных изображений
 
-class CardList {
+export default class CardList {
     constructor(container, cardsArray) {
         this.container = container;
         this.cardsArray = cardsArray;

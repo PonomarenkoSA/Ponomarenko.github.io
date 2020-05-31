@@ -1,6 +1,13 @@
 'use strict';
 
 import "./pages/style.css";
+import {api} from './Api';
+import Card from './Card';
+import CardList from './CardList';
+import FormValidator from './FormValidator';
+import Popup from './Popup';
+import UserInfo from './UserInfo';
+import {avatar, userInfoJob, userInfoName, userButtonEdit, userButtonAdd, placesList, popupAddElement, popupEditElement, popupTemplate, formPlace, formEdit, inputName, inputJob} from './variables';
 
 (function() {
 
