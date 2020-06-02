@@ -45,14 +45,14 @@ class Api {
                 return Promise.reject(`Ошибка: ${res.status}`);
             })
             .catch((err) => Promise.reject(`Ошибка: ${err.message}`));
-        }
     }
+}
 
         
-const api = new Api({
+export const api = new Api({
     baseUrl: 'https://praktikum.tk/cohort10',
     headers: {
         authorization: '686c2dab-15b3-4cc3-ab32-35d23d057880',
         'Content-Type': 'application/json'
-      }
-  });
+    }
+});
